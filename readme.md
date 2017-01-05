@@ -26,3 +26,6 @@ file can feel a little clunky.
 
 # tmux
 Alternative to ```screen``` but also offers vertical splits.
+
+# Video processing
+See how [these videos](video.md) were made.
