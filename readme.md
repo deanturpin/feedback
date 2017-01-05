@@ -18,4 +18,4 @@ Interactive sessions can be fun but copying your changes back into the source
 file can feel a little clunky.
 
 # tmux
-Alternative to ```screen``` for split terminals but also allows vertical splits.
+Alternative to ```screen``` but also offers vertical splits.
