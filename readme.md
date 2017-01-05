@@ -5,7 +5,7 @@ inotifywait -qe modify blah.sh
 ./blah.sh
 ```
 
-See (waitandrun)[bin/waitandrun) for a wrapper.
+See [waitandrun](bin/waitandrun) for a wrapper.
 
 
 Running Haskell as a script
@@ -16,3 +16,6 @@ Running Haskell as a script
 # Interactive sessions
 Interactive sessions can be fun but copying your changes back into the source
 file can feel a little clunky.
+
+# tmux
+Alternative to ```screen``` for split terminals but also allows vertical splits.
