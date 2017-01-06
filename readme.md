@@ -8,8 +8,13 @@ inotifywait -qe modify blah.sh
 
 See [waitandrun](bin/waitandrun) for a wrapper.
 
+# tmux
+Alternative to ```screen``` but also offers vertical splits.
 
-Running Haskell as a script
+See [tmux](tmux.md).
+
+# Running Haskell as a script
+
 ```haskell
 #!/usr/bin/runhaskell
 ```
@@ -23,11 +28,6 @@ file can feel a little clunky.
 
 *Haskell's GHCI interactive shell*
 ![node.js](screenshots/ghci.png)
-
-# tmux
-Alternative to ```screen``` but also offers vertical splits.
-
-See [tmux](tmux.md).
 
 # Video processing
 See how [these videos](video.md) were made.
