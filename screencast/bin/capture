@@ -12,5 +12,5 @@ mkdir -p $project
 pushd $project
 
 # Capture
-# echo "^D to terminate caputre"
+echo "^D to terminate caputre"
 script -t --timing=cast.timing cast
