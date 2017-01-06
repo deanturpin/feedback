@@ -1,4 +1,5 @@
 # inotifywait
+
 Use ```inotifywait```to run a script when you save it.
 
 ```bash
@@ -9,9 +10,8 @@ inotifywait -qe modify blah.sh
 See [waitandrun](bin/waitandrun) for a wrapper.
 
 # tmux
-Alternative to ```screen``` but also offers vertical splits.
 
-See [tmux](tmux.md).
+Alternative to ```screen``` but also offers vertical splits.
 
 # Running Haskell as a script
 
@@ -20,6 +20,7 @@ See [tmux](tmux.md).
 ```
 
 # Interactive sessions
+
 Interactive sessions can be fun but copying your changes back into the source
 file can feel a little clunky.
 
@@ -30,6 +31,7 @@ file can feel a little clunky.
 ![node.js](screenshots/ghci.png)
 
 # Examples
+
 - [Fibonacci sequence in (Haskell)](examples/fibonacci)
 - [Echo a variable as it is assigned (bash)](examples/echo-variable/)
 
