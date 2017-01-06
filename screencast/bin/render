@@ -12,6 +12,7 @@ mkdir -p $project
 pushd $project
 
 clear
+# https://en.wikipedia.org/wiki/Display_resolution
 # filters="fps=15,scale=800:-1:flags=lanczos"
 # ffmpeg -y -f x11grab -video_size 3200x1800 -i :0.0 -filter:v $filters capture.gif >& /dev/null &
 

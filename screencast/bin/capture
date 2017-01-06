@@ -15,4 +15,4 @@ sleep 1
 clear
 
 # Capture
-script -t --timing=cast.timing cast
+script --quiet -t --timing=cast.timing cast
