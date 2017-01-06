@@ -1,3 +1,4 @@
+# Example - echo variable
 ![](echo-variable/render.gif)
 
 # Setup
