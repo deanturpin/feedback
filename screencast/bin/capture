@@ -5,12 +5,14 @@
 
 project=$1
 
-echo Starting key capture to \"$project\"
-
 # Create a directory for this project
 mkdir -p $project
 pushd $project
 
-# Capture
+echo Starting key capture to \"$project\"
 echo "^D to terminate caputre"
+sleep 1
+clear
+
+# Capture
 script -t --timing=cast.timing cast
