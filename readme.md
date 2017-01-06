@@ -30,9 +30,8 @@ file can feel a little clunky.
 ![node.js](screenshots/ghci.png)
 
 # Examples
-- []()
-- []()
-- []()
+- [Fibonacci sequence in (Haskell)](examples/fibonacci)
+- [Echo a variable as it is assigned (bash)](examples/echo-variable/)
 
 These screencasts were made with
 (deanturpin/screencast)[https://github.com/deanturpin/screencast].
