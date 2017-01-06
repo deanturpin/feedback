@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Check params
+[[ $# != 1 ]] && echo usage: "$0 project" && exit
+
+project=$1
+
+echo Starting key capture to \"$project\"
+
+# Create a directory for this project
+mkdir -p $project
+pushd $project
+
+# Capture
+# echo "^D to terminate caputre"
+script -t --timing=cast.timing cast
