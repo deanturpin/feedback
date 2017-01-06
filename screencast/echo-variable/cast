@@ -1,20 +1,0 @@
-Le script a débuté sur Fri 06 Jan 2017 15:16:20 GMT
-]0;dev@dev: ~/feedback/screencast/echo-variable[01;32mdev@dev[00m:[01;34m~/feedback/screencast/echo-variable[00m$ PS1=\>/ [K[K\ 
-> [H[2J> # c[Kwe can set a variable to the output of ac[Ka [K[Ka[K command
-> temp=$(temp[K[K[K[Kmktetmp)[K[K[K[Kmp)
-> # but what was the result?
-> echo $temp
-/tmp/tmp.pfNeoPHckN
-> [H[2J> # however... we can do this in one step
-> echo[K[K[K[Ktemp=$([C[C# however... we can do this in one step[C[Cecho $temp[K[C[C# but what was the result?[C[C[12Ptemp=$(mktemp) )|) )/)d)e)v)/)[1P)[1P)[1P)[1P)[1P)t)e)e) )/)d)e)v)/)t)t)y)
-/tmp/tmp.XliS5IS329
-> echo $temp 
-/tmp/tmp.XliS5IS329
-> 
-> 
-> 
-> 
-> # binog[K[Kgo!
-> exit
-
-Script terminé sur Fri 06 Jan 2017 15:17:47 GMT

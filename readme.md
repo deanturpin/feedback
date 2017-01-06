@@ -29,5 +29,10 @@ file can feel a little clunky.
 *Haskell's GHCI interactive shell*
 ![node.js](screenshots/ghci.png)
 
-# Screencasts
-See how [these videos](screencast/readme.md) were made.
+# Examples
+- []()
+- []()
+- []()
+
+These screencasts were made with
+(deanturpin/screencast)[https://github.com/deanturpin/screencast].

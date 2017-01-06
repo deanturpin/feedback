@@ -1,0 +1,18 @@
+Le script a débuté sur Fri 06 Jan 2017 15:46:16 GMT
+]0;dev@dev: ~/feedback/screencast/echo-variable> # we can write the result of a command to a variable
+]0;dev@dev: ~/feedback/screencast/echo-variable> temp=$(mktemp)
+]0;dev@dev: ~/feedback/screencast/echo-variable> # but what was the result?
+]0;dev@dev: ~/feedback/screencast/echo-variable> echo $temp
+/tmp/tmp.zs2mkJNulC
+]0;dev@dev: ~/feedback/screencast/echo-variable> [H[2J]0;dev@dev: ~/feedback/screencast/echo-variable>  '[K[K# hov[Ker[K[Kew[K[Kwever...
+]0;dev@dev: ~/feedback/screencast/echo-variable> # we can do this in one step
+]0;dev@dev: ~/feedback/screencast/echo-variable> 
+]0;dev@dev: ~/feedback/screencast/echo-variable> temp[C[C[K# we can do this in one step[C[C[C[C[16Phowever...[C[C[2Pecho $temp[C[C# but what was the result?[C[C[12Ptemp=$(mktemp)[C )|) )t)e)e) )/)d)e)v)/)t)t)y)
+/tmp/tmp.hUO6WBctnm
+]0;dev@dev: ~/feedback/screencast/echo-variable> echo $temp
+/tmp/tmp.hUO6WBctnm
+]0;dev@dev: ~/feedback/screencast/echo-variable> 
+]0;dev@dev: ~/feedback/screencast/echo-variable> 
+]0;dev@dev: ~/feedback/screencast/echo-variable> 
+]0;dev@dev: ~/feedback/screencast/echo-variable> # bingo1[K!
+]0;dev@dev: ~/feedback/screencast/echo-variable> exit
