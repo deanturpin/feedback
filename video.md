@@ -1,19 +1,3 @@
-These videos were captured with ```recordmydesktop``` and then converted to GIFs
-with ```ffmpeg```.
-
-Convert
-```bash
-ffmpeg -ss 2 -t 2 -i tmux.ogv -filter:v scale=1080:-1 tmux.gif -y
-```
-
-![](video/tmux.gif)
-
-Capture and convert in one go (whole screen)
-```
-ffmpeg -y -f x11grab -video_size 3200x1800 -i :0.0 -filter:v scale=720:-1 capture.gif >& /dev/null &
-killall ffmpeg
-```
-
 # What's my window size?
 Make the terminal full screen (F11) and hide the menu.
 
