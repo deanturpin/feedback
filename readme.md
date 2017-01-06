@@ -15,8 +15,19 @@ Alternative to ```screen``` but also offers vertical splits.
 
 # Running Haskell as a script
 
+Add the hashbang to the first line of the Haskell file.
+
 ```haskell
 #!/usr/bin/runhaskell
+
+fibonacci :: Int -> Int
+fibonacci 0 = 0
+fibonacci 1 = 1
+fibonacci n = fibonacci(n - 1) + fibonacci(n - 2)
+
+main = do
+  print "fib of 10"
+  print(fibonacci(10))
 ```
 
 # Interactive sessions
@@ -32,8 +43,8 @@ file can feel a little clunky.
 
 # Examples
 
-- [Fibonacci sequence in (Haskell)](examples/fibonacci)
-- [Echo a variable as it is assigned (bash)](examples/echo-variable/)
+- [Implementing the Fibonacci sequence (Haskell)](examples/fibonacci)
+- [Echo a variable as it is assigned (bash)](examples/echo/)
 
 These screencasts were made with
 (deanturpin/screencast)[https://github.com/deanturpin/screencast].
