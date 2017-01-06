@@ -29,5 +29,5 @@ file can feel a little clunky.
 *Haskell's GHCI interactive shell*
 ![node.js](screenshots/ghci.png)
 
-# Video processing
-See how [these videos](video.md) were made.
+# Screencasts
+See how [these videos](screencast/readme.md) were made.
