@@ -1,4 +1,4 @@
-#inotifywait
+# inotifywait
 Use ```inotifywait```to run a script when you save it.
 
 ```bash
@@ -26,6 +26,8 @@ file can feel a little clunky.
 
 # tmux
 Alternative to ```screen``` but also offers vertical splits.
+
+See [tmux](tmux.md).
 
 # Video processing
 See how [these videos](video.md) were made.
