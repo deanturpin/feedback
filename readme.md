@@ -1,3 +1,12 @@
+# Example screencasts
+
+- [Implementing the Fibonacci sequence (Haskell)](examples/fibonacci)
+- [Echo a variable as it is assigned (bash)](examples/echo/)
+- [Experimenting with string literals (C++14)](examples/cpp/)
+
+These screencasts were made with
+(deanturpin/screencast)[https://github.com/deanturpin/screencast].
+
 # inotifywait
 
 Use ```inotifywait```to run a script or compile when a source file is saved.
@@ -29,15 +38,6 @@ main = do
   print "fib of 10"
   print(fibonacci(10))
 ```
-
-# Example screencasts
-
-- [Implementing the Fibonacci sequence (Haskell)](examples/fibonacci)
-- [Echo a variable as it is assigned (bash)](examples/echo/)
-- [Experimenting with string literals (C++14)](examples/cpp/)
-
-These screencasts were made with
-(deanturpin/screencast)[https://github.com/deanturpin/screencast].
 
 # Interactive sessions
 
