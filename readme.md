@@ -44,8 +44,8 @@ main = do
 Interactive sessions can be fun but copying your changes back into the source
 file can feel a little clunky.
 
-*Node.js shell*
+## Node.js shell
 ![node.js](screenshots/node.png)
 
-*Haskell's GHCI interactive shell*
+## Haskell's GHCI interactive shell
 ![node.js](screenshots/ghci.png)
