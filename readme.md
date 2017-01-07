@@ -30,6 +30,15 @@ main = do
   print(fibonacci(10))
 ```
 
+# Example screencasts
+
+- [Implementing the Fibonacci sequence (Haskell)](examples/fibonacci)
+- [Echo a variable as it is assigned (bash)](examples/echo/)
+- [Experimenting with string literals (C++14)](examples/cpp/)
+
+These screencasts were made with
+(deanturpin/screencast)[https://github.com/deanturpin/screencast].
+
 # Interactive sessions
 
 Interactive sessions can be fun but copying your changes back into the source
@@ -40,11 +49,3 @@ file can feel a little clunky.
 
 *Haskell's GHCI interactive shell*
 ![node.js](screenshots/ghci.png)
-
-# Examples
-
-- [Implementing the Fibonacci sequence (Haskell)](examples/fibonacci)
-- [Echo a variable as it is assigned (bash)](examples/echo/)
-
-These screencasts were made with
-(deanturpin/screencast)[https://github.com/deanturpin/screencast].
