@@ -1,17 +1,17 @@
 # inotifywait
 
-Use ```inotifywait```to run a script when you save it.
+Use ```inotifywait```to run a script or compile when a source file is saved.
 
 ```bash
 inotifywait -qe modify blah.sh
 ./blah.sh
 ```
 
-See [waitandrun](bin/waitandrun) for a wrapper.
+See [waitandrun](bin/waitandrun) and [waitandcompile](bin/waitandcompile) for the wrappers.
 
 # tmux
 
-Alternative to ```screen``` but also offers vertical splits.
+tmux is an alternative to ```screen``` but also offers vertical splits.
 
 # Running Haskell as a script
 
