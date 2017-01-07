@@ -1,21 +1,0 @@
-Le script a débuté sur Sat 07 Jan 2017 11:40:16 GMT
-]0;dev@dev: ~/feedback/examples/empty> # we can write the result of a command to a variable
-]0;dev@dev: ~/feedback/examples/empty> temp=$(mktemp)
-]0;dev@dev: ~/feedback/examples/empty> 
-]0;dev@dev: ~/feedback/examples/empty> # but what was the result?
-]0;dev@dev: ~/feedback/examples/empty> echo $temp
-/tmp/tmp.2obm20tzvG
-]0;dev@dev: ~/feedback/examples/empty> 
-]0;dev@dev: ~/feedback/examples/empty> 
-]0;dev@dev: ~/feedback/examples/empty> # we can do this in one step
-]0;dev@dev: ~/feedback/examples/empty> 
-]0;dev@dev: ~/feedback/examples/empty> # we can do this in one step[C[C[18Pecho $temp[C[C# but what was the result?[C[C[12Ptemp=$(mktemp) )|) )t)e)e) )/)d)e)v)/)t)t)y)
-/tmp/tmp.pWPk0SY3a3
-]0;dev@dev: ~/feedback/examples/empty> echo $temp 
-/tmp/tmp.pWPk0SY3a3
-]0;dev@dev: ~/feedback/examples/empty> 
-]0;dev@dev: ~/feedback/examples/empty> 
-]0;dev@dev: ~/feedback/examples/empty> 
-]0;dev@dev: ~/feedback/examples/empty> # bingo!
-]0;dev@dev: ~/feedback/examples/empty> 
-]0;dev@dev: ~/feedback/examples/empty> exit
