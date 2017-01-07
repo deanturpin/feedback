@@ -5,7 +5,7 @@
 - [Experimenting with string literals (C++14)](examples/cpp/)
 
 These screencasts were made with
-(deanturpin/screencast)[https://github.com/deanturpin/screencast].
+[deanturpin/screencast](https://github.com/deanturpin/screencast).
 
 # inotifywait
 
