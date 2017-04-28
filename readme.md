@@ -22,6 +22,16 @@ See [waitandrun](bin/waitandrun) and [waitandcompile](bin/waitandcompile) for th
 
 tmux is an alternative to ```screen``` but also offers vertical splits.
 
+# JavaScript page reload
+Periodically reload the page if there's a "reload" token in the URL.
+```js
+		// Periodically reload the page
+		setInterval(function() {
+			if (window.location.href.split("?").pop() === "reload")
+				window.location.reload()
+		}, 2000)
+```
+
 # Running Haskell as a script
 
 Add the hashbang to the first line of the Haskell file.
